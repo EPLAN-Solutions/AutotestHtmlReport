@@ -1,7 +1,7 @@
 @using AventStack.ExtentReports
 
 @{
-  var runDuration = DateTime.Now - Model.StartTime;
+  var runDuration = Model.TimeTaken;
 
 	var bdd = Model.TestList[0].IsBehaviorDrivenType;
 	

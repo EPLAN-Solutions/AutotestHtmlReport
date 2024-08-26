@@ -1,25 +1,25 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
     <RootNamespace>AventStack.ExtentReports</RootNamespace>
-    <PackageVersion>5.0.5-beta</PackageVersion>
-    <Authors>anshooarora</Authors>
+    <PackageVersion>1.0.1</PackageVersion>
+    <Authors>anshooarora, Adam Dvoracek</Authors>
     <Copyright>AventStack</Copyright>
-    <PackageLicenseUrl>https://github.com/extent-framework/extentreports-csharp/blob/master/LICENSE</PackageLicenseUrl>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-    <Owners>anshooarora</Owners>
+	  <Owners>anshooarora</Owners>
     <PackageProjectUrl>https://github.com/extent-framework/extentreports-csharp</PackageProjectUrl>
-    <Summary>ExtentReports .Net Standard</Summary>
-    <PackageTags>.net reporting extent extentreports klov</PackageTags>
-    <Title>ExtentReports</Title>
-    <Description>ExtentReports .Net Standard</Description>
-    <PackageId>ExtentReports</PackageId>
+    <Summary>ExtentReports modified for EPLAN Autotests</Summary>
+    <PackageTags>.net reporting extent extentreports</PackageTags>
+    <Title>Eplan.ExtentReports</Title>
+    <Description>EplanExtentReports for EPLAN Autotests</Description>
+    <PackageId>Eplan.ExtentReports</PackageId>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageIconUrl>https://www.extentreports.com/logo.jpg</PackageIconUrl>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <UserSecretsId>6576a851-016a-4abc-a1d1-bdd65a6090d5</UserSecretsId>
+    <PlatformTarget>x64</PlatformTarget>
+    <Platforms>x64</Platforms>
   </PropertyGroup>
 
   <ItemGroup>

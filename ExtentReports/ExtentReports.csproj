@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackOnBuild>true</PackOnBuild>
     <RootNamespace>AventStack.ExtentReports</RootNamespace>
-    <PackageVersion>1.0.1</PackageVersion>
+    <PackageVersion>1.0.3</PackageVersion>
     <Authors>anshooarora, Adam Dvoracek</Authors>
     <Copyright>AventStack</Copyright>
 	  <Owners>anshooarora</Owners>
